@@ -1,0 +1,61 @@
+{
+  "data": [
+    {
+      "name": "Departement",
+      "children": [
+        {
+          "name": "Section",
+          "children": [
+            {
+              "name": "Outcome",
+              "children": [
+                {
+                  "name": "Assumption",
+                  "children": [
+                    {
+                      "name": "Sub-assumption",
+                      "children": [
+                        {
+                          "name": "Process1",
+                          "children": [
+                            { "name": "KPI1" },
+                            { "name": "KPI2" },
+                            { "name": "KPI3" },
+                            {
+                              "name": "Sub-process",
+                              "children": [
+                                { "name": "KPI1" },
+                                { "name": "KPI2" },
+                                { "name": "KPI3" }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Process2",
+                          "children": [
+                            { "name": "KPI1" },
+                            { "name": "KPI2" },
+                            { "name": "KPI3" },
+                            {
+                              "name": "Sub-process",
+                              "children": [
+                                { "name": "KPI1" },
+                                { "name": "KPI2" },
+                                { "name": "KPI3" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
